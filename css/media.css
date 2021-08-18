@@ -1,0 +1,50 @@
+/* Extra Small Device */
+
+@media(max-width:575.98px){
+    .navbar-nav {
+        text-align: center;
+    }
+    .banner_overly{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .banner_txt h3{
+        font-size: 42px;
+        line-height: 56px;
+    }
+    #product{
+        padding: 30px;
+    }
+    .product_header h3::after{
+        width: 40px;
+        top: 10px;
+        left: -30px;
+    }
+    .product_header h3::before{
+        width: 40px;
+        top: 10px;
+        left: 220px;
+    }
+    .product_header{
+        padding-bottom: 30px;
+    }
+    .one_cont{
+        padding: 50px 50px;
+    }
+    .sale_txt{
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+    .handbarg_overly{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hand_item h3::before{
+        width: 80px;
+        top: 80px;
+        left: 100px;
+    }
+    .counter_itm{
+        margin-bottom: 10px;
+    }
+}
